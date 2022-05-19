@@ -2,7 +2,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header {
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(68, 68, 68);
   height: 100px;
   margin-bottom: 30px;
 }
@@ -17,10 +17,12 @@ nav img{
 }
 nav ul{
   display: flex;
-  justify-content: space-around;
+ justify-content: space-around;
+
 }
 nav ul li{
   margin-top: 40px;
+  justify-content: space-evenly;
 }
 a {
   text-decoration: none;
@@ -50,14 +52,16 @@ h2 {
 }
 p {
   height: 300px;
-  overflow: auto;''
+  overflow: auto;
 }
 button {
-  margin-top: 15px;
+  margin-top: 45px;
+  transition: 350ms;
+  
 }
 button:hover {
-  background-color: green;
-  transition: 350ms;
+  background-color: rgb(253, 122, 122);
+ 
 }
 footer {
   height: 150px;
